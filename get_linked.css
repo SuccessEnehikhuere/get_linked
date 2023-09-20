@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@300;500;700&family=Roboto:wght@400;500;700&family=Unica+One&display=swap');
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+* {
+  padding:0;
+  margin:0;
+}
+
+:root{
+  --bg-color: #140D27;
+  --background-button: linear-gradient(
+    270deg,
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+  --container-width:100%;
+  --main-display:flex;
+  --white:#fff;
+  --font-one: 'Clash Display', sans-serif;
+  --font-two:'Montserrat', sans-serif;
+  --purple:#D434FE;
+}
+
+/* .container{
+  height:100vh;
+  
+} */
+
+
+.header{
+  display:var(--main-display);
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--bg-color);
+  width:var(--container-width);
+  padding-top:3.5rem;
+  padding-bottom:1.5rem;
+
+}
+
+.header__line{
+  /* background-color: lightgray; */
+  height: 0.5px;
+  background-color: #FFFFFF2E.18%;
+}
+
+.header__first-child{
+  display:var(--main-display);
+ 
+}
+.header__second-child{
+  display:var(--main-display);
+  margin-left:10rem; 
+
+}
+
+
+.header__first-child__text1,
+.header__first-child__text2{
+  font-size:2.3rem;
+  font-family: var(--font-one);
+  font-weight: bold;
+  color:var(--white);
+
+}
+.header__first-child__text2{
+  color:var(--purple);
+
+}
+.header__second-child__text{
+  padding-left:2.5rem;
+  font-family: var(--font-two);
+  font-size:1rem;
+  font-weight: 400;
+  color:var(--white);
+ 
+}
+.header__third-child__button{
+  padding: 0.8rem 2.5rem;
+  font-size: 1rem;
+  font-family: var(--font-two);
+  font-weight: 400;
+  color:var(--white);
+  background: var(--background-button);
+  border:none;
+  border-radius: 0.25rem;
+ 
+}
+.first-container{
+  display:var(--main-display);
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--bg-color);
+  padding-top: 2rem;
+  padding-left: 5rem;
+  position:relative;
+  
+}
+.first-container__first-child{
+  padding-top: 7rem;
+}
+
+.first-container__text,
+.first-container__text2{
+  color: var(--white);
+  font-family: Clash Display;
+  font-size: 4rem;
+  font-weight: 700;
+  /* line-height: 1; */
+
+}
+
+.first-container__text2{
+  color:var(--purple);
+  padding-left: 0.5rem;
+}
+.first-container__container{
+  display: var(--main-display);
+  align-items: center;
+  
+}
+.first-container__text3{
+  color:var(--white);
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166%;
+  
+}
+.first-container__first-child__button{
+  padding: 0.6rem 2.2rem;
+  font-size: 1rem;
+  font-family: var(--font-two);
+  font-weight: 400;
+  color:var(--white);
+  background: var(--background-button);
+  border:none;
+  border-radius: 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 4.8rem;
+}
+
+.first-container__text4{
+  padding-right:2rem;
+  color: var(--white);
+  font-family: Unica One;
+  font-weight: 400;
+  font-size: 4rem;
+}
+.first-container__text5{
+  color: var(--white);
+  font-family: Montserrat;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.first-container__second-child__text{
+  color: var(--white);
+  font-family: Montserrat;
+  font-size: 1.8rem;
+  font-style: italic;
+  font-weight: 700;
+  /* padding-top: 3rem; */
+  /* padding-right: 1rem; */
+  
+} 
+.first-container__second-child__image1{
+  display:var(--main-display);
+  justify-content: flex-end;
+  padding-right: 5rem;
+}
+.first-container__second-child__container2{
+  position: relative;
+}
+/* .first-container__second-child__image2{
+  width:var(--container-width);
+  position: absolute;
+  top:0; */
+  /* left:500px; */
+  /* left: 20px;
+  bottom:0px; */
+ 
+  /* width:100%; */
+  /* background-blend-mode: luminosity; */
+}
+/* .first-container__second-child__image3{
+   width:var(--container-width);
+   background-color: var(--bg-color);
+   background-blend-mode: luminosity;
+  
+  
+} */
+
+
+.main-images{
+  background-image: url(./images/image\ 6.svg);
+  background-color:  lightgray 50%;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-blend-mode: luminosity;
+  height: 715px;
+  width:100%;
+}
